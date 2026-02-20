@@ -1,0 +1,12 @@
+BDEPEND=dev-vcs/git >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=FinalBurn Neo multi-arcade core
+EAPI=8
+HOMEPAGE=https://github.com/libretro/FBNeo
+INHERIT=git-r3
+LICENSE=FBNeo
+PROPERTIES=live
+RDEPEND=virtual/zlib
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=cae170aa574cdf0bd0452f16a971de12

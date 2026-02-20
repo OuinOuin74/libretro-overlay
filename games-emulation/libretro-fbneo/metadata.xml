@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    FinalBurn Neo is a multi-arcade emulator libretro core supporting
+    Capcom CPS-1/2/3, Neo Geo, Sega System 16 and many other arcade
+    hardware platforms.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">libretro/FBNeo</remote-id>
+  </upstream>
+</pkgmetadata>
