@@ -1,0 +1,12 @@
+BDEPEND=dev-vcs/git >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Commodore Amiga emulator core (PUAE)
+EAPI=8
+HOMEPAGE=https://github.com/libretro/libretro-uae
+INHERIT=git-r3
+LICENSE=GPL-2+
+PROPERTIES=live
+RDEPEND=virtual/zlib
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=60f73f2641a2c1ae25d8ac739d978419

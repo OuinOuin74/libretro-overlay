@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    PUAE is a port of the Commodore Amiga emulator to libretro, continuing
+    where E-UAE left off. It supports Amiga 500, 1200 and CD32 models via
+    model presets, WHDLoad, IPF disk images via the CAPSIMG library, and
+    features a built-in AROS fallback Kickstart ROM.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">libretro/libretro-uae</remote-id>
+  </upstream>
+</pkgmetadata>
