@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    Mesen is a high-accuracy Nintendo Entertainment System and Famicom
+    emulator ported to libretro. It features cycle-accurate emulation,
+    HD packs support, extensive debugging tools and broad mapper
+    compatibility.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">libretro/Mesen</remote-id>
+  </upstream>
+</pkgmetadata>
