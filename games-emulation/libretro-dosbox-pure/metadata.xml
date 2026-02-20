@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    DOSBox Pure is a fork of DOSBox built for RetroArch/Libretro aiming
+    for simplicity and ease of use. It supports loading games directly
+    from ZIP files, save states, an on-screen keyboard and highly
+    customizable controller setup.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">schellingb/dosbox-pure</remote-id>
+  </upstream>
+</pkgmetadata>
