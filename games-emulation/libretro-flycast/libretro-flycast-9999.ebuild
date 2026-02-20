@@ -16,9 +16,12 @@ SLOT="0"
 KEYWORDS=""
 
 RDEPEND="
+	dev-libs/libzip
+	dev-util/glslang
 	media-libs/libglvnd
 	virtual/zlib
 "
+
 BDEPEND="
 	dev-build/cmake
 	dev-build/ninja
@@ -27,10 +30,23 @@ BDEPEND="
 	media-libs/mesa
 "
 
+src_prepare() {
+	cmake_src_prepare
+	# Remplace le bloc libzip bundlé par un find_package système
+	sed -i \
+		'/if(NOT LIBZIP_FOUND OR NINTENDO_SWITCH)/,/^endif()/c\find_package(libzip REQUIRED)\ntarget_link_libraries(${PROJECT_NAME} PRIVATE libzip::zip)' \
+		CMakeLists.txt
+	# Force nowide en statique pour éviter les RPATHs vers le build dir
+	sed -i 's/add_library(nowide src/add_library(nowide STATIC src/' \
+		core/deps/nowide/CMakeLists.txt
+}
+
 src_configure() {
 	local mycmakeargs=(
 		-DLIBRETRO=ON
 		-DCMAKE_POSITION_INDEPENDENT_CODE=ON
+		-DUSE_HOST_GLSLANG=ON
+		-DUSE_HOST_LIBZIP=ON
 	)
 	cmake_src_configure
 }
