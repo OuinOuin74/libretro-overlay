@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    Snes9x is a portable Super Nintendo Entertainment System emulator
+    ported to libretro. It offers broad game compatibility, low system
+    requirements and optional LLE audio emulation.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">libretro/snes9x</remote-id>
+  </upstream>
+</pkgmetadata>

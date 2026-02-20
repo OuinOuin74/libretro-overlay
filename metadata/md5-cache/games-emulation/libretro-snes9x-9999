@@ -1,0 +1,12 @@
+BDEPEND=dev-vcs/git >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Super Nintendo Entertainment System core
+EAPI=8
+HOMEPAGE=https://github.com/libretro/snes9x
+INHERIT=git-r3
+LICENSE=snes9x GPL-3 LGPL-2.1
+PROPERTIES=live
+RDEPEND=virtual/zlib
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=dc546e9b6662d9d3ba79e4fcec90c6ac

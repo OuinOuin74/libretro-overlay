@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    Flycast is a multi-platform Sega Dreamcast, NAOMI, NAOMI 2 and
+    Atomiswave emulator ported to libretro. It features OpenGL and
+    Vulkan renderers, RetroAchievements support, netplay and WHDLoad
+    support for arcade hardware.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">flyinghead/flycast</remote-id>
+  </upstream>
+</pkgmetadata>
