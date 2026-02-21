@@ -1,0 +1,13 @@
+BDEPEND=hw? ( media-libs/mesa ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Sony PlayStation libretro core (Beetle PSX)
+EAPI=8
+HOMEPAGE=https://github.com/libretro/beetle-psx-libretro
+INHERIT=git-r3
+IUSE=hw
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=hw? ( virtual/opengl media-libs/vulkan-loader )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=557880c3622f09b0d470a42731342a78

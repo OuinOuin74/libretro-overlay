@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    Beetle PSX is a Sony PlayStation emulator libretro core, based on Mednafen.
+    The hardware-accelerated variant (USE=hw) enables OpenGL and Vulkan rendering
+    for enhanced visuals and higher resolutions.
+  </longdescription>
+  <use>
+    <flag name="hw">Build the hardware-accelerated variant with OpenGL/Vulkan support</flag>
+  </use>
+  <upstream>
+    <remote-id type="github">libretro/beetle-psx-libretro</remote-id>
+  </upstream>
+</pkgmetadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    MAME (Multiple Arcade Machine Emulator) libretro core, arcade subset.
+    Emulates thousands of arcade boards and systems.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">libretro/mame</remote-id>
+  </upstream>
+</pkgmetadata>
