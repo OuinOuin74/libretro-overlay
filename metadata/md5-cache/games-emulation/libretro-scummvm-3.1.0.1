@@ -1,0 +1,12 @@
+BDEPEND=app-arch/unzip app-arch/zip
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=ScummVM libretro core
+EAPI=8
+HOMEPAGE=https://github.com/libretro/scummvm
+IUSE=cloud
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-libs/fribidi media-libs/faad2 media-libs/flac media-libs/freetype media-libs/giflib media-libs/libjpeg-turbo media-libs/libmad media-libs/libmpeg2 media-libs/libpng media-libs/libtheora media-libs/libvorbis media-sound/fluidsynth virtual/zlib cloud? ( net-misc/curl )
+SLOT=0
+SRC_URI=https://github.com/libretro/scummvm/archive/refs/tags/libretro-v3.1.0.1.tar.gz -> libretro-scummvm-3.1.0.1.tar.gz https://github.com/libretro/libretro-deps/archive/7e6e34f0319f4c7448d72f0e949e76265ccf55a1.tar.gz -> libretro-scummvm-3.1.0.1-libretro-deps.tar.gz https://github.com/libretro/libretro-common/archive/70ed90c42ddea828f53dd1b984c6443ddb39dbd6.tar.gz -> libretro-scummvm-3.1.0.1-libretro-common.tar.gz
+_md5_=543b95fb7b8f7ef49da39e8c67086fb8

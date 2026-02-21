@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+  <upstream>
+    <remote-id type="github">libretro/scummvm</remote-id>
+  </upstream>
   <longdescription>
     ScummVM libretro core. Allows playing classic point-and-click adventure
     games via RetroArch using the ScummVM engine.
