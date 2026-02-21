@@ -12,7 +12,7 @@ EGIT_SUBMODULES=('*')
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 
 RDEPEND="
 	media-libs/libpng

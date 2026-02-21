@@ -13,7 +13,7 @@ S="${WORKDIR}/${P}"
 
 LICENSE="snes9x GPL-3 LGPL-2.1"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 
 RDEPEND="
 	virtual/zlib

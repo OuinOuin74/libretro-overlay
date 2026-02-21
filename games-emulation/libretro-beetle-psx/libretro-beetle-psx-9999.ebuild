@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/libretro/beetle-psx-libretro.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 IUSE="hw"
 
 RDEPEND="
