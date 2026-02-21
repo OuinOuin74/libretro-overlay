@@ -23,7 +23,7 @@ S="${WORKDIR}/scummvm-libretro-v${PV}"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="cloud"
+IUSE="+cloud"
 
 # Le Makefile détecte les libs système via sharedlib_test.mk si USE_SYSTEM_<lib>=1
 RDEPEND="
@@ -91,7 +91,7 @@ src_compile() {
 		USE_SYSTEM_fribidi=1 \
 		USE_SYSTEM_mpeg2=1 \
 		USE_SYSTEM_gif=1 \
-		$(usex cloud 'USE_CLOUD=1' '') \
+		USE_CLOUD=1 \
 		all
 }
 
@@ -105,6 +105,6 @@ src_install() {
 	mkdir -p "${datadir}" || die
 	unzip -q backends/platform/libretro/scummvm.zip -d "${datadir}" || die
 
-	insinto /usr/share/retroarch/system/scummvm
-	doins -r "${datadir}"/scummvm/.
+	exeinto /usr/lib/libretro
+	doexe backends/platform/libretro/scummvm_libretro.so
 }
