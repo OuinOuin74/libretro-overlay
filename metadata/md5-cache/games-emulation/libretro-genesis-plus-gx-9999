@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Sega 8/16 bit libretro core (MS/GG/MD/CD) - Genesis Plus GX
+EAPI=8
+HOMEPAGE=https://github.com/libretro/Genesis-Plus-GX
+INHERIT=git-r3
+LICENSE=Genesis-Plus-GX
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=59f5ed3b9bdaa126182fbc37f7913189

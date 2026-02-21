@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    Genesis Plus GX is a Sega 8/16-bit emulator libretro core supporting
+    Master System, Game Gear, Mega Drive (Genesis), and Mega CD hardware.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">libretro/Genesis-Plus-GX</remote-id>
+  </upstream>
+</pkgmetadata>
