@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    Mupen64Plus Next is a Nintendo 64 emulator core for libretro/RetroArch.
+    It includes support for the ParaLLEl-RDP and ParaLLEl-RSP renderers for
+    high-accuracy Vulkan rendering.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">libretro/mupen64plus-libretro-nx</remote-id>
+  </upstream>
+</pkgmetadata>
