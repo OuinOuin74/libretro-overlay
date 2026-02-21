@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=libretro port of xrick (Rick Dangerous)
+EAPI=8
+HOMEPAGE=https://github.com/libretro/xrick-libretro
+INHERIT=git-r3
+KEYWORDS=~amd64
+LICENSE=xrick
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=9ae55e8b4b46acfcf432919e99cf5367
